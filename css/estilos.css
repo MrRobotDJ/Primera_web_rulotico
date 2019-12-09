@@ -114,9 +114,18 @@ nav li a:hover{
   padding-bottom: 50px;
 }
 .reviews{
-  box-shadow: 0 0 2px #bfbbbb;
-  padding: 10px;
-  margin:5px;
+  box-shadow: 0 0 10px #bfbbbb;
+  margin:10px;
+}
+.reviews h3{
+  margin:10px;
+}
+.reviews p{
+  margin:10px;
+  padding-bottom: 10px;
+}
+.reviews img{
+  width: 100%;
 }
 /* --------------------------- footer_section */
 footer{
