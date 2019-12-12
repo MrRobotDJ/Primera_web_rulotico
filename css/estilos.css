@@ -127,6 +127,15 @@ nav li a:hover{
 .reviews img{
   width: 100%;
 }
+/* --------------------------- venta */
+.modulo_pago{
+  background-color: var(--white_color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo_pago_imagen{
+  text-align: center;
+}
 /* --------------------------- footer_section */
 footer{
   display:flex;
