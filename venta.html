@@ -42,23 +42,24 @@
 
         <div class="col-6">
           <div class="modulo_pago">
-            <form action="http://google.com">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4K7BHY7QZA742" method="post">
               <label>Nombre
               <br>
-              <input type="text" placeholder="Ingresa tu nombre" name="name" class="data">
+              <input type="text" type="hidden" placeholder="Ingresa tu nombre" name="first_name" class="data" value="">
               </label>
               <br>
 
               <label>Mail
               <br>
-              <input type="text" placeholder="Ingresa tu correo" name="mail" class="data">
+              <input type="text" type="hidden" placeholder="Ingresa tu correo" name="email" class="data" value="">
               </label>
               <br>
 
               <label>Telefono
               <br>
-              <input type="text" placeholder="Ingresa tu telefono" name="phone" class="data">
+              <input type="text" type="hidden" placeholder="Ingresa tu telefono" name="night_phone_a" class="data" value="">
               </label>
+
               <input type="submit" value="Confirmar pago" name="submit" class="main_button">
             </form>
           </div>

@@ -149,6 +149,10 @@ label{
   font-size: 12px;
 }
 /* --------------------------- footer_section */
+button a{
+  text-decoration: none;
+  color: white;
+}
 footer{
   display:flex;
   background-color: #313337;
