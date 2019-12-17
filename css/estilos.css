@@ -148,6 +148,14 @@ nav li a:hover{
 label{
   font-size: 12px;
 }
+/* --------------------------- terminos_condiciones */
+.terminos_condiciones{
+  margin:0px 30px;
+}
+/* --------------------------- faqs */
+.faqs{
+  margin:0px 30px;
+}
 /* --------------------------- footer_section */
 button a{
   text-decoration: none;
@@ -159,4 +167,8 @@ footer{
   padding: var(--space);
   color: white;
   justify-content: space-between;
+}
+footer a{
+  color: var(--green_color);
+  text-decoration: none
 }
